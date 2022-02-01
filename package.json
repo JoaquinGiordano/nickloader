@@ -1,0 +1,27 @@
+{
+    "name": "nickloader",
+    "version": "1.0.0",
+    "description": "Spotify Downloader",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.ts --trace-deprecation",
+        "start": "tsc index.ts && node .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Joaquin Giordano <joaquin_giordano@outlook.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/node": "^17.0.13",
+        "@types/opn": "^5.5.0",
+        "nodemon": "^2.0.15",
+        "typescript": "^4.5.5"
+    },
+    "dependencies": {
+        "axios": "^0.25.0",
+        "dotenv": "^15.0.0",
+        "express": "^4.17.2",
+        "opn": "^6.0.0",
+        "progress-bar": "^0.1.1"
+    }
+}

@@ -1,0 +1,6 @@
+test.json
+node_modules/
+.vscode/
+Downloads/
+.env
+token.key
